@@ -69,15 +69,36 @@ Smart-Fleet-Management-System/
 
 ---
 
-## 🚀 How to Build
+## 🚀 How to Build (MinGW)
 
 ### Clone Repository
 
 ```bash
 git clone https://github.com/hiArthansh/Smart-Fleet-Management-System.git
 cd Smart-Fleet-Management-System
+```
 
+### Create Build Directory
+
+```bash
 mkdir build
 cd build
-cmake ..
-make
+```
+
+### Generate Build Files (MinGW)
+
+```bash
+cmake -G "MinGW Makefiles" ..
+```
+
+### Compile
+
+```bash
+mingw32-make
+```
+
+### Run Executable
+
+```bash
+./SmartFleetManagementSystem.exe
+```
