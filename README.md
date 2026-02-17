@@ -41,8 +41,8 @@ The system is divided into three main layers:
 - Visualizes missions
 - Shows simulation status
 
-'''
 ## 📂 Project Structure
+'''
 Smart-Fleet-Management-System/
 │
 ├── src/ # C++ Simulation Core
@@ -55,7 +55,6 @@ Smart-Fleet-Management-System/
 ├── CMakeLists.txt
 ├── README.md
 └── LICENSE
-
 '''
 
 ## ⚙️ Technologies Used
