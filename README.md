@@ -42,20 +42,21 @@ The system is divided into three main layers:
 - Shows simulation status
 
 ## 📂 Project Structure
-'''
+
+```
 Smart-Fleet-Management-System/
 │
-├── src/ # C++ Simulation Core
-├── backend/ # Python Backend
-├── frontend/ # Web Dashboard
-├── data/ # Missions and state files
-├── docs/ # Architecture documentation
-├── assets/ # Screenshots and demo files
+├── src/        # C++ Simulation Core
+├── backend/    # Python Backend
+├── frontend/   # Web Dashboard
+├── data/       # Missions and state files
+├── docs/       # Architecture documentation
+├── assets/     # Screenshots and demo files
 │
 ├── CMakeLists.txt
 ├── README.md
 └── LICENSE
-'''
+```
 
 ## ⚙️ Technologies Used
 
